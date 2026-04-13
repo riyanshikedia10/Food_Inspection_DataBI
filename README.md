@@ -107,6 +107,9 @@ The pipeline unifies both datasets into a star schema dimensional model suitable
 ├── 06b_Silver_Dallas.ipynb            # Silver — clean, validate, unpivot Dallas
 ├── 06c_Silver_Unified.ipynb           # Silver — create unified views
 ├── 08_Gold.ipynb                      # Gold — dimensional model (dims, fact, bridge)
+├── assets/
+│   ├── Food_Inspection_Dimensional_Model_Final_Project.png           # Dimensional Modeling ER Diagram
+│   ├── Full_Project_Mapping.xlsx           # Mapping Document
 ├── docs/
 │   ├── RAW_BRONZE_LAYER.md            # Raw & Bronze layer documentation
 │   ├── SILVER_LAYER.md                # Silver layer documentation
