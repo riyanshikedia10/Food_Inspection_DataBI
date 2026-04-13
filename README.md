@@ -1,6 +1,6 @@
 # Food Inspection Data Pipeline
 
-## Chicago & Dallas — Medallion Architecture on Databricks
+## Chicago & Dallas - Medallion Architecture on Databricks
 
 A full data engineering pipeline that ingests, profiles, cleans, models, and visualizes food inspection data from Chicago and Dallas using the Medallion Architecture (Raw → Bronze → Silver → Gold) on Databricks with Delta Lake.
 
@@ -107,6 +107,9 @@ The pipeline unifies both datasets into a star schema dimensional model suitable
 ├── 06b_Silver_Dallas.ipynb            # Silver — clean, validate, unpivot Dallas
 ├── 06c_Silver_Unified.ipynb           # Silver — create unified views
 ├── 08_Gold.ipynb                      # Gold — dimensional model (dims, fact, bridge)
+├── assets/
+│   ├── Food_Inspection_Dimensional_Model_Final_Project.png           # Dimensional Modeling ER Diagram
+│   ├── Full_Project_Mapping.xlsx           # Mapping Document
 ├── docs/
 │   ├── RAW_BRONZE_LAYER.md            # Raw & Bronze layer documentation
 │   ├── SILVER_LAYER.md                # Silver layer documentation
@@ -255,10 +258,11 @@ The dashboard is built in Power BI / Tableau connected to the Gold layer and inc
 
 ## Team
 
-DAMG Course — Northeastern University
+- Team Members: Preksha Praveen | Riyanshi Kedia | Pradyumna Reddy Cherla
+- Course: DAMG7370 Designing Advanced Data Architectures for Business Intelligence | Northeastern University
 
 ---
 
 ## License
 
-Academic use only — Northeastern University coursework.
+Academic use only. Northeastern University coursework.
