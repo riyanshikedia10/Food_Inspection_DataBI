@@ -258,8 +258,8 @@ The dashboard is built in Power BI / Tableau connected to the Gold layer and inc
 
 ## Team
 
-Team Members: Preksha Praveen | Riyanshi Kedia | Pradyumna Reddy Cherla
-Course: DAMG7370 Designing Advanced Data Architectures for Business Intelligence | Northeastern University
+- Team Members: Preksha Praveen | Riyanshi Kedia | Pradyumna Reddy Cherla
+- Course: DAMG7370 Designing Advanced Data Architectures for Business Intelligence | Northeastern University
 
 ---
 
